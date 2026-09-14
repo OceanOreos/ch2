@@ -1,6 +1,8 @@
 public class date{
+	
 	public static void main (String[] args) {
 		
+		// Declaring and assigning variables 
 		int day;
 		day = 14;
 	    String month;
@@ -8,6 +10,7 @@ public class date{
 	    int year;
 	    year = 2026;
 	    
+	    // Concanated 
 	    System.out.println("Today is " + month + " " + day + " of " + year);
 	    
 	   }
