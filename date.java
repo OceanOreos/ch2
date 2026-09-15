@@ -4,14 +4,15 @@ public class date{
 		
 		// Declaring and assigning variables 
 		int day;
-		day = 14;
+		day = 15;
 	    String month;
 	    month = "September";
 	    int year;
 	    year = 2026;
 	    
 	    // Concanated 
-	    System.out.println("Today is " + month + " " + day + " of " + year);
+	    System.out.println("American Format: " + "Tuesday, " + month + " " + day + ", " + year);
+	    System.out.println("European Format " + "Tuesday " + day + " " + month + " " + year);
 	    
 	   }
 }
