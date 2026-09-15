@@ -6,11 +6,16 @@ public class Time{
 		int hour;
 	    hour = 14;
 	    int minutes;
-	    minutes = 40;
+	    minutes = 26;
+	    int second;
+	    second = 21;
 	    
 	    // Concatenate
 	    System.out.println("This is the seconds since midnight: " + (hour * 3600 + minutes * 60) + ".");
-	    System.out.print("It is currently 2:40 pm" + ".");
+	    System.out.println("It is currently 2:26 pm" + ".");
 	    
+	    // Percentage
+	    System.out.print("This is the percentage of the day that has passed: ");
+	    System.out.println(((hour*60)+minutes)*100/1440 + "%");
 	}
 }
